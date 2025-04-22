@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body class="light-theme">
+    <header>
+        <div class="header-content">
+            <div class="theme-switcher">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+        
+        <ul class="algorithms">
+            <li><button class="sort-btn">Selection Sort</button></li>
+            <li><button class="sort-btn">Merge Sort</button></li>
+            <li><button class="sort-btn">Quick Sort</button></li>
+            <li><button class="sort-btn">Heap Sort</button></li>
+            <li><button class="sort-btn active">Bubble Sort</button></li>
+        </ul>
+    </header>
+    <main>
+        <div class="controls">
+            <button id="generate-btn" class="control-btn">Generate New Array</button>
+            <button id="sort-btn" class="control-btn primary">Start Sorting</button>
+        </div>
+        <div id="wrapper"></div>
+        <div class="slide-container">
+            <div class="slider-info">
+                <span>Array Size</span>
+                <span id="size-value">50</span>
+            </div>
+            <input type="range" min="8" max="150" value="50" id="slider" class="slider">
+            <div class="slider-info">
+                <span>Speed</span>
+                <span id="speed-value">Medium</span>
+            </div>
+            <input type="range" min="1" max="100" value="50" id="speed-slider" class="slider">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
