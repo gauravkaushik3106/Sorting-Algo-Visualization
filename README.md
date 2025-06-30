@@ -1,58 +1,64 @@
 ````markdown
 # Sorting Algorithm Visualizer
 
-[Live Demo](https://gauravkaushik3106.github.io/Sorting-Algo-Visualization/)
+[![🔗 Live Demo](https://img.shields.io/badge/🔗-Live%20Demo-brightgreen?style=flat-square)](https://gauravkaushik3106.github.io/Sorting-Algo-Visualization/)
 
-A responsive and interactive sorting algorithm visualizer built with vanilla JavaScript, HTML, and CSS. Visualize how different sorting algorithms work in real-time, with adjustable array size and animation speed, as well as light/dark theme support.
+A responsive and interactive **Sorting Algorithm Visualizer** built with **vanilla JavaScript**, **HTML**, and **CSS**. Watch how the most popular sorting algorithms operate in real-time, adjust the array size and animation speed, and switch between light/dark themes seamlessly.
 
-## Features
+---
 
-- **Array Size Slider**: Adjust the number of elements to sort (10–200).
-- **Speed Control**: Choose between Slow, Medium, and Fast animation speeds.
-- **Generate Random Array**: Quickly generate a new random set of bars.
-- **Five Algorithms**:
+## 🚀 Features
+
+- **Array Size Slider**: Easily adjust the number of elements (10–200).
+- **Speed Control**: Switch between **Slow**, **Medium**, and **Fast** animation speeds.
+- **Randomize Array**: Generate a fresh, random set of bars at any time.
+- **5 Sorting Algorithms**:
   - **Selection Sort**
   - **Merge Sort**
   - **Quick Sort**
   - **Heap Sort**
   - **Bubble Sort**
-- **Theme Toggle**: Switch between light and dark themes; preference saved in `localStorage`.
-- **Responsive Design**: Resizes bars on window resize for a consistent experience.
+- **Theme Toggle**: Light and dark mode support, with preference saved via `localStorage`.
+- **Responsive Design**: Bars dynamically resize on window resize for consistent visuals.
 
-## Technologies
+---
 
-- **JavaScript (ES6+)**: Core logic and DOM manipulation
-- **HTML5 & CSS3**: Structure and styling
-- **CSS Variables**: Easily customizable colors
-- **`requestAnimationFrame`**: Smooth animation loop
+## 🛠️ Technologies Used
 
-## Getting Started
+- **JavaScript (ES6+)** for core logic and smooth animations using `requestAnimationFrame`
+- **HTML5** & **CSS3** with CSS variables for easy theming
+- **No build tools** required—just open `index.html` in your browser!
 
-Follow these steps to run the project locally:
+---
 
-1. **Clone the repository**
+## 📦 Getting Started
 
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/gauravkaushik3106/Sorting-Algo-Visualization.git
    cd Sorting-Algo-Visualization
 ````
 
-2. **Open in Browser**
+2. **Open** `index.html` in your favorite browser.
 
-   Simply open `index.html` in your favorite browser. No build tools or server required.
+That's it! No additional setup needed.
 
-## Usage
+---
 
-1. Use the **Array Size** slider at the top to set the number of bars.
-2. Use the **Speed** slider to adjust animation speed; labels update automatically.
-3. Click **Generate New Array** to randomize bar heights.
-4. Select any sorting algorithm button.
-5. Click **Sort** to start the visualization.
-6. Toggle the theme icon to switch between light and dark modes.
+## ⚙️ Usage
 
-## Customization
+1. Move the **Array Size** slider to select the number of bars.
+2. Adjust the **Speed** slider—labels change to Slow, Medium, or Fast.
+3. Click **Generate New Array** to get a fresh random dataset.
+4. Select a sorting algorithm button.
+5. Hit **Sort** and enjoy the visualization.
+6. Toggle the theme icon (🌙/☀️) to switch between modes.
 
-* **Colors**: Modify CSS variables in `styles.css`:
+---
+
+## 🎨 Customization
+
+* **Colors**: Tweak CSS variables in `styles.css`:
 
   ```css
   :root {
@@ -62,12 +68,14 @@ Follow these steps to run the project locally:
     --sorted-color: #00b894;
   }
   ```
-* **Default Algorithm**: Change the default algorithm in `script.js` within the `initialize()` function.
-* **Animation Speed**: Tweak thresholds or values in the speed slider event listener.
+* **Default Algorithm**: Modify the default in `script.js` under `initialize()`.
+* **Animation Speed Thresholds**: Adjust in the speed slider event listener.
 
-## Folder Structure
+---
 
-```
+## 📂 Project Structure
+
+```plaintext
 Sorting-Algo-Visualization/
 ├── index.html
 ├── styles.css
@@ -75,26 +83,32 @@ Sorting-Algo-Visualization/
 └── README.md
 ```
 
-## Future Improvements
+---
 
-* Add more algorithms (e.g., Radix Sort, Shell Sort).
-* Mobile-friendly UI tweaks.
-* Sound effects for comparisons and swaps.
-* Performance optimizations for very large arrays.
+## 🚧 Future Improvements
 
-## Contributing
+* Add more algorithms (e.g., Shell Sort, Radix Sort)
+* Mobile-specific UI enhancements
+* Optional sound effects for operations
+* Performance tweaks for very large arrays
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Please:
 
 1. Fork the repo
-2. Create a new branch (`git checkout -b feature/YourFeature`)
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
 3. Commit your changes (`git commit -m "Add YourFeature"`)
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a pull request
 
-## License
+---
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 📄 License
+
+This project is MIT licensed—see the [LICENSE](LICENSE) file for details.
 
 ```
 ```
