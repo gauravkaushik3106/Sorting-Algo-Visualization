@@ -1,7 +1,7 @@
 ````markdown
 # Sorting Algorithm Visualizer
 
-[![🔗 Live Demo](https://img.shields.io/badge/🔗-Live%20Demo-brightgreen?style=flat-square)](https://gauravkaushik3106.github.io/Sorting-Algo-Visualization/)
+**Live Demo:** 🎬 [Click here to view the demo](https://gauravkaushik3106.github.io/Sorting-Algo-Visualization/)
 
 A responsive and interactive **Sorting Algorithm Visualizer** built with **vanilla JavaScript**, **HTML**, and **CSS**. Watch how the most popular sorting algorithms operate in real-time, adjust the array size and animation speed, and switch between light/dark themes seamlessly.
 
